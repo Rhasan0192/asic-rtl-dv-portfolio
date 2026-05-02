@@ -23,7 +23,7 @@ and_gate/
 └── README.md
 ```
 
-### Truth Table
+## Truth Table
 
 | A | B | Y |
 |---|---|---|
@@ -44,23 +44,25 @@ The testbench is **self-checking**, meaning:
 
 ---
 
-##  Simulation Flow (I have used VS code and Questasim)
 
-### 1. Compile design (Compiles RTL + testbench)
-make compile
-### 2. Run Testbench (Runs simulation in CLI mode)
-make run
-### 3. Run simulation with GUI (Opens QuestaSim GUI with waveforms)
-make gui
+## Simulation Flow
 
-##  Sample Output
+```bash
+make compile   # Compile RTL + TB
+make run       # Run simulation (CLI)
+make gui       # Open waveform GUI
+```
 
-Starting AND gate verification <br>
-✔ PASS: a=0 b=0 y=0 <br>
-✔ PASS: a=0 b=1 y=0 <br>
-✔ PASS: a=1 b=0 y=0 <br>
-✔ PASS: a=1 b=1 y=1 <br>
+## 📊 Sample Output
+
+```text
+Starting AND gate verification
+✔ PASS: a=0 b=0 y=0
+✔ PASS: a=0 b=1 y=0
+✔ PASS: a=1 b=0 y=0
+✔ PASS: a=1 b=1 y=1
 Test completed
+```
 
 ##  Learning Outcome
 
@@ -71,3 +73,10 @@ This project demonstrates:
 - Industrial simulation flow using Makefile automation  
 - Debugging using waveforms in QuestaSim  
 
+##  Tools Used
+
+- SystemVerilog  
+- QuestaSim 2024.1  
+- VS Code  
+- Makefile  
+- Git & GitHub 
