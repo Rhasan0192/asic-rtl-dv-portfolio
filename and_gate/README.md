@@ -21,7 +21,7 @@ and_gate/
 │
 ├── results/
 └── README.md
-
+```
 
 ### Truth Table
 
