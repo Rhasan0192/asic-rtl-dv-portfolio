@@ -9,10 +9,10 @@ vsim.wlf
 *.dat
 *.o
 *.cf
+*.vcd
 
 # Simulation outputs
-sim/*.wlf
-sim/*.log
+sim/
 
 # OS junk
 .DS_Store
