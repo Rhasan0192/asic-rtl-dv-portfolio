@@ -1,0 +1,23 @@
+# QuestaSim / ModelSim generated files
+work/
+transcript
+vsim.wlf
+*.wlf
+*.log
+*.vstf
+*.ini
+*.dat
+*.o
+*.cf
+
+# Simulation outputs
+sim/*.wlf
+sim/*.log
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Python cache (for future regression scripts)
+__pycache__/
+*.pyc
