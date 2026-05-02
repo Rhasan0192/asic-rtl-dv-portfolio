@@ -6,18 +6,20 @@ The simulation flow is automated using **Makefile + QuestaSim**, following a bas
 
 
 ## Project Structure
+```text
 and_gate/
 │
 ├── rtl/
-│ └── and_gate.sv # RTL design (AND gate)
+│   └── and_gate.sv
 │
 ├── tb/
-│ └── tb_and_gate.sv # Self-checking testbench
+│   └── tb_and_gate.sv
 │
 ├── sim/
-│ ├── Makefile # Automation (compile/run)
-│ ├── wave.do # Waveform setup script
+│   ├── Makefile
+│   ├── wave.do
 │
+├── results/
 └── README.md
 
 
