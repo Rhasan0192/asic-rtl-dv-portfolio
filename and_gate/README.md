@@ -55,10 +55,19 @@ make gui
 
 ##  Sample Output
 
-Starting AND gate verification
+Starting AND gate verification <br>
 ✔ PASS: a=0 b=0 y=0 <br>
 ✔ PASS: a=0 b=1 y=0 <br>
 ✔ PASS: a=1 b=0 y=0 <br>
 ✔ PASS: a=1 b=1 y=1 <br>
 Test completed
+
+##  Learning Outcome
+
+This project demonstrates:
+
+- Basic RTL design in SystemVerilog  
+- Verification methodology using self-checking testbench  
+- Industrial simulation flow using Makefile automation  
+- Debugging using waveforms in QuestaSim  
 
