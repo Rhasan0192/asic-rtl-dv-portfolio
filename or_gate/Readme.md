@@ -45,6 +45,7 @@ always_comb begin
 end
 
 endmodule
+```
 ---
 ##  Features
 - Parameterized width (scalable design)
