@@ -110,7 +110,8 @@ PASS=24 FAIL=0
 - Applying functional coverage concepts
 - Automating simulation with Makefile
 - Structuring verification like real DV teams
-##Tools Used
+
+## Tools Used
 - SystemVerilog
 - QuestaSim 2024.1
 - VS Code
