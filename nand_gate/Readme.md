@@ -57,7 +57,7 @@ module nand_gate #(parameter WIDTH = 4)(
 endmodule
 ```
 ---
-##Verification Architecture
+## Verification Architecture
 
 The verification environment follows a layered UVM-style flow:
 ```text
